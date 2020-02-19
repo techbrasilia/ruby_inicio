@@ -31,6 +31,7 @@ $(document).ready(function() {
       url: "/companies/" + this.parentElement.id,
       type: "GET",
       success: function(r) {
+        console.log("teste");
         console.log(r);
       }
     });
